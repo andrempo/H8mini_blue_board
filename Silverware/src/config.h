@@ -6,7 +6,7 @@
 
 // rate in deg/sec
 // for acro mode
-#define MAX_RATE 360.0
+#define MAX_RATE 720.0
 #define MAX_RATEYAW 360.0
 
 // max angle for level mode
@@ -117,11 +117,11 @@
 
 #define HEADLESSMODE CH_OFF
 // rates / expert mode
-#define RATES CH_EXPERT
+#define RATES DEVO_CHAN_7
 
-#define LEVELMODE CH_AUX1
+#define LEVELMODE CH_RTH
 
-#define STARTFLIP CH_OFF
+#define STARTFLIP CH_FLIP
 
 #define LEDS_ON CH_ON
 
